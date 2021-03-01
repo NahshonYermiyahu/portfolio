@@ -44,6 +44,10 @@
         width: 28.8rem;
         flex-direction: column;
 
+        @media only screen and (max-width: 113.75em) {
+          width: 14.4rem;
+        }
+
         div {
           display: flex;
         }
@@ -68,13 +72,16 @@
           line-height: 4rem;
           letter-spacing: 0.01rem;
           color: $color-primary-gray;
-          //text-align: center;
         }
       }
 
       .right {
         width: 28.8rem;
         flex-direction: column;
+
+        @media only screen and (max-width: 113.75em) {
+          width: 14.4rem;
+        }
 
         div {
           display: flex;
@@ -101,7 +108,7 @@
       }
 
       &__2 {border-radius: 0 50% 50% 50%;}
-      &__4 {border-radius: 50% 0 0 0;}
+      &__3 {border-radius: 50% 0 0 0;}
       &__5 {border-radius: 50% 0 50% 0;}
       &__6 {border-radius: 50% 0 0 50%;}
       &__7 {border-radius: 50%;}

@@ -20,12 +20,67 @@ html {
   font-size: 62.5%;
   background-color: #FFFFFF;
 }
+@media only screen and (max-width: 96em) {
+  html {
+    font-size: 59%;
+  }
+}
+@media only screen and (max-width: 90em) {
+  html {
+    font-size: 57%;
+  }
+}
+@media only screen and (max-width: 87.5em) {
+  html {
+    font-size: 55%;
+  }
+}
+@media only screen and (max-width: 83.75em) {
+  html {
+    font-size: 52.5%;
+  }
+}
+@media only screen and (max-width: 80em) {
+  html {
+    font-size: 51%;
+  }
+}
+@media only screen and (max-width: 78.125em) {
+  html {
+    font-size: 49%;
+  }
+}
+@media only screen and (max-width: 74.4em) {
+  html {
+    font-size: 47%;
+  }
+}
+@media only screen and (max-width: 71.6em) {
+  html {
+    font-size: 45%;
+  }
+}
+@media only screen and (max-width: 68.75em) {
+  html {
+    font-size: 43%;
+  }
+}
+@media only screen and (max-width: 65.6em) {
+  html {
+    font-size: 42%;
+  }
+}
 
 body {
   box-sizing: border-box;
   font-family: "SF Pro Display", "Arial", sans-serif;
   width: 180rem;
   margin: 0 auto;
+}
+@media only screen and (max-width: 113.75em) {
+  body {
+    width: 151.2rem;
+  }
 }
 
 a {
@@ -204,6 +259,15 @@ h4 {
   align-items: center;
 }
 
+.box-media {
+  width: 14.4rem;
+}
+
+@media only screen and (max-width: 113.75em) {
+  .box-media {
+    width: 0;
+  }
+}
 .card {
   height: 47.5%;
   margin: 5% 2.5% 5% 2.5%;
@@ -232,6 +296,7 @@ h4 {
   text-transform: uppercase;
   transition: all 0.7s;
   transition-delay: 0.1s;
+  transform: translateY(-100%);
 }
 .card .card-heading h2 {
   color: #FFFFFF;
@@ -259,7 +324,7 @@ h4 {
   opacity: 0.1;
 }
 .card:hover .card-heading {
-  top: 70%;
+  top: 80%;
   opacity: 1;
 }
 .card-photo {
@@ -606,6 +671,11 @@ h4 {
   width: 28.8rem;
   flex-direction: column;
 }
+@media only screen and (max-width: 113.75em) {
+  .gallery .content .left {
+    width: 14.4rem;
+  }
+}
 .gallery .content .left div {
   display: flex;
 }
@@ -655,6 +725,11 @@ h4 {
 .gallery .content .right {
   width: 28.8rem;
   flex-direction: column;
+}
+@media only screen and (max-width: 113.75em) {
+  .gallery .content .right {
+    width: 14.4rem;
+  }
 }
 .gallery .content .right div {
   display: flex;
@@ -762,6 +837,11 @@ h4 {
   width: 28.8rem;
   flex-direction: column;
 }
+@media only screen and (max-width: 113.75em) {
+  .about-me__block .content .left {
+    width: 14.4rem;
+  }
+}
 .about-me__block .content .left div {
   display: flex;
 }
@@ -802,6 +882,11 @@ h4 {
   width: 28.8rem;
   flex-direction: column;
 }
+@media only screen and (max-width: 113.75em) {
+  .about-me__block .content .right {
+    width: 14.4rem;
+  }
+}
 .about-me__block .content .right div {
   display: flex;
 }
@@ -837,7 +922,7 @@ h4 {
 .about-me__block .footer__2 {
   border-radius: 0 50% 50% 50%;
 }
-.about-me__block .footer__4 {
+.about-me__block .footer__3 {
   border-radius: 50% 0 0 0;
 }
 .about-me__block .footer__5 {

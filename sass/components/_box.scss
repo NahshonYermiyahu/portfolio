@@ -32,3 +32,13 @@
   height: 14.4rem;
   @include d-f-center;
 }
+
+.box-media {
+  width: 14.4rem;
+}
+
+@media only screen and (max-width: 113.75em) {
+  .box-media {
+    width: 0;
+  }
+}

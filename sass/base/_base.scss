@@ -11,6 +11,48 @@ html {
     // 1 rem = 10px; 10px/16px = 62.5% 
     font-size: 62.5%;
     background-color: $color-primary-white;
+
+  @media only screen and (max-width: 96em) {
+    font-size: 59%;
+  }
+
+  @media only screen and (max-width: 90em) {
+    font-size: 57%;
+  }
+
+  @media only screen and (max-width: 87.5em) {
+    font-size: 55%;
+  }
+
+  @media only screen and (max-width: 83.75em) {
+    font-size: 52.5%;
+  }
+
+  @media only screen and (max-width: 80em) {
+    font-size: 51%;
+  }
+
+  @media only screen and (max-width: 78.125em) {
+    font-size: 49%;
+  }
+
+  @media only screen and (max-width: 74.4em) {
+    font-size: 47%;
+  }
+
+  @media only screen and (max-width: 71.6em) {
+    font-size: 45%;
+  }
+
+  @media only screen and (max-width: 68.75em) {
+    font-size: 43%;
+  }
+
+  @media only screen and (max-width: 65.6em) {
+    font-size: 42%;
+  }
+
+    //min-width= 1024px
 }
 
 body {
@@ -18,7 +60,13 @@ body {
   font-family: 'SF Pro Display', 'Arial', sans-serif;
   width: 180rem;
   margin: 0 auto;
+
+  @media only screen and (max-width: 113.75em) {
+    width: 151.2rem;
+  }
 }
+
+
 
 a {
   text-decoration: none;
