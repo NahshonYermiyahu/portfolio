@@ -1,0 +1,34 @@
+
+.box-empty {
+  width: 14.4rem;
+  height: 14.4rem;
+  @include d-f-center;
+}
+
+.box-filled {
+  width: 14.4rem;
+  height: 14.4rem;
+  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+  @include d-f-center;
+}
+
+.box-big {
+  width: 21.8rem;
+  height: 14.4rem;
+  z-index: 50;
+  background-color: $color-primary-white;
+}
+
+.box-small {
+  width: 8rem;
+  height: 14.4rem;
+  z-index: 50;
+  background-color: $color-primary-white;
+  
+}
+
+.box-double {
+  width: 28.8rem;
+  height: 14.4rem;
+  @include d-f-center;
+}

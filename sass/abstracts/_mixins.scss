@@ -1,0 +1,17 @@
+@mixin d-f-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin d-f-left-50 {
+  display:flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+@mixin d-f-right-50 {
+  display:flex;
+  justify-content: flex-end;
+  width: 50%;
+}
